@@ -1,0 +1,18 @@
+{
+  "origin": "",
+  "destination": "",
+  "routes": [
+    {
+      "id": "route1",
+      "description": "",
+      "waypoints": ["", ""]
+    },
+    { "id": "route2", "description": "", "waypoints": ["", ""] },
+    {
+      "id": "route3",
+      "description": "",
+      "waypoints": ["", ""]
+    }
+  ],
+  "google_route": false
+}
