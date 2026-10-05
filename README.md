@@ -2,7 +2,7 @@
 
 Local Flask dashboard for comparing predefined, traffic-aware driving routes.
 
-CommuteDashboard lets you define multiple commute routes between a start point and destination, then compare their current estimated travel times. Routes can be defined using GPS coordinates, with optional Google Routes API data for the route preferred by Google.
+CommuteDashboard lets you define multiple commute routes between a start point and destination, then compare their current estimated travel times by car. Routes can be defined using GPS coordinates, with optional Google Routes API data for the route preferred by Google.
 
 ## Setup
 
