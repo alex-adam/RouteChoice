@@ -1,2 +1,2 @@
-"""CommuteRoutes Flask application."""
+"""CommuteDashboard Flask application."""
 

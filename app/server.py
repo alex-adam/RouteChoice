@@ -1,4 +1,4 @@
-"""Flask server for CommuteRoutes."""
+"""Flask server for CommuteDashboard."""
 
 from __future__ import annotations
 

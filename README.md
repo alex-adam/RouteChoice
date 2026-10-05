@@ -1,8 +1,8 @@
-# RouteChoice
+# CommuteDashboard
 
 Local Flask dashboard for comparing predefined, traffic-aware driving routes.
 
-RouteChoice lets you define multiple commute routes between a start point and destination, then compare their current estimated travel times. Routes can be defined using GPS coordinates, with optional Google Routes API data for the route preferred by Google.
+CommuteDashboard lets you define multiple commute routes between a start point and destination, then compare their current estimated travel times. Routes can be defined using GPS coordinates, with optional Google Routes API data for the route preferred by Google.
 
 ## Setup
 
@@ -91,7 +91,7 @@ Your Google API key remains on the server and is not exposed to the browser.
 
 ## Adapting to Your Use Case
 
-RouteChoice is designed around a set of predefined routes that you regularly want to compare, such as different routes for your daily commute.
+CommuteDashboard is designed around a set of predefined routes that you regularly want to compare, such as different routes for your daily commute.
 
 Routes are configured in:
 
@@ -142,7 +142,7 @@ A route can optionally be marked as the route preferred by Google Navigation:
   "google_route": true
 ```
 
-When enabled, RouteChoice highlights this route in the dashboard, making it easy to compare your predefined routes against Google's recommended route.
+When enabled, CommuteDashboard highlights this route in the dashboard, making it easy to compare your predefined routes against Google's recommended route.
 
 ## Security
 

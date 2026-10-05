@@ -1,27 +1,59 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CommuteRoutes</title>
-    <link rel="stylesheet" href="/style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CommuteDashboard</title>
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <main>
       <header>
-        <div><p class="eyebrow">Traffic-aware commute comparison</p><h1>CommuteRoutes</h1></div>
+        <div>
+          <p class="eyebrow">Traffic-aware commute comparison</p>
+          <h1>CommuteDashboard</h1>
+        </div>
         <button id="update-button" type="button">Update Routes</button>
       </header>
       <p id="updated-at" class="muted">No successful update yet.</p>
       <p id="status" class="status" role="status" aria-live="polite"></p>
       <section class="map-panel" aria-labelledby="map-heading">
-        <div class="map-heading"><h2 id="map-heading">Route map</h2><div id="map-legend" class="map-legend"></div></div>
-        <div class="map-frame"><canvas id="route-map" aria-label="Map showing the updated commute routes"></canvas><p id="map-notice" class="map-notice">Update routes to show them on the map.</p></div>
-        <p class="map-attribution">© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> contributors</p>
+        <div class="map-heading">
+          <h2 id="map-heading">Route map</h2>
+          <div id="map-legend" class="map-legend"></div>
+        </div>
+        <div class="map-frame">
+          <canvas
+            id="route-map"
+            aria-label="Map showing the updated commute routes"></canvas>
+          <p id="map-notice" class="map-notice">
+            Update routes to show them on the map.
+          </p>
+        </div>
+        <p class="map-attribution">
+          ©
+          <a
+            href="https://www.openstreetmap.org/copyright"
+            target="_blank"
+            rel="noreferrer"
+            >OpenStreetMap</a
+          >
+          contributors
+        </p>
       </section>
       <section id="routes" class="routes" aria-live="polite"></section>
     </main>
-    <template id="route-template"><article class="route-card"><div><h2></h2><p class="tag"></p></div><div class="metrics"><span class="duration"></span><span class="distance"></span></div><p class="error"></p></article></template>
+    <template id="route-template"
+      ><article class="route-card">
+        <div>
+          <h2></h2>
+          <p class="tag"></p>
+        </div>
+        <div class="metrics">
+          <span class="duration"></span><span class="distance"></span>
+        </div>
+        <p class="error"></p></article
+    ></template>
     <script src="/app.js"></script>
   </body>
 </html>
